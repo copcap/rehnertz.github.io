@@ -90,7 +90,7 @@ jobs:
           pnpm run build
           > src/.vuepress/dist/.nojekyll
 
-      - name: 部署文档
+      - name: 部署文档咯
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           # 这是文档部署到的分支名称
